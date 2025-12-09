@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE = import.meta.env.VITE_API_URL || "https://finance-dashboard-gdw2.onrender.com/api";
+const BASE = import.meta.env.VITE_API_URL;
 
 const api = axios.create({
   baseURL: BASE,
