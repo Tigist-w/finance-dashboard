@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "https://finance-dashboard-n6uj.vercel.app/login",
+    origin: process.env.CLIENT_URL,
     credentials: true,
   })
 );
